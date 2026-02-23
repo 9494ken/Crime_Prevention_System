@@ -1,0 +1,7 @@
+flask             #Creates the web application (backend)
+opencv-python     #Handles image and video processing
+ultralytics       #Provides YOLOv8 for object detection
+numpy             #Helps with mathematical operations
+pandas            #Manages and processes data (tables, CSV files)
+matplotlib        #Displays graphs and images
+uuid              #Generates unique IDs (useful for saving files or tracking data)

@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.pyc
+
+# Environment
+.env
+
+# Model files (VERY IMPORTANT)
+models/*.pt
+
+# Data
+*.csv
+*.xlsx
+
+# Generated files
+static/uploads/*
+static/results/*
+static/graphs/*
+static/logs/*
+
+# Keep folder structure
+!static/uploads/.gitkeep
+!static/results/.gitkeep
+!static/graphs/.gitkeep
+!static/logs/.gitkeep
+
+# OS
+.DS_Store
+Thumbs.db
